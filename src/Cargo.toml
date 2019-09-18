@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    "janiview-lib-image",
+    "janiview-app-gtk",
+]
+
+[profile.release]
+opt-level = 2
+lto = true
+
+[profile.test]
+codegen-units = 8

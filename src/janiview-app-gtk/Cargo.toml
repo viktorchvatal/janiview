@@ -1,0 +1,10 @@
+[package]
+name = "janiview-app-gtk"
+version = "0.1.0"
+authors = ["vchvatal"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+janiview-lib-image = { path = "../janiview-lib-image" }
